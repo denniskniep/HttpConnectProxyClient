@@ -11,7 +11,7 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "hcpc",
+	Use:   "http-connect-proxy-client",
 	Short: "Proxy tcp connection via http2 connect server",
 	RunE: func(cmd *cobra.Command, args []string) error {
 		if err := runRootCommand(); err != nil {
